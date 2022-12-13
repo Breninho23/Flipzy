@@ -5,17 +5,17 @@
 
 @font-face {
     font-family: 'Gotham-Bold';
-    src: url('/Gotham-Font/Gotham-Bold.otf') format('truetype');
+    src: url('../fonts/Gotham-Font/Gotham-Bold.otf') format('truetype');
   }
 
 @font-face {
-    font-family: 'Gotham-Thin';
-    src:url("/Gotham-Font/GothamBook.ttf");
+    font-family: 'Gotham-Book';
+    src:url("../fonts/Gotham-Font/GothamBook.ttf");
 }
 
 @font-face {
   font-family: 'Gotham-Light';
-  src:url("/Gotham-Font/GothamLight.ttf");
+  src:url("../fonts/Gotham-Font/GothamLight.ttf");
 }
 
 body {
@@ -61,7 +61,7 @@ body {
     color: rgba(255, 255, 255, 0.493);
     margin-left: 10px;
     font-size: 20px;
-    font-family: "Gotham-Thin";
+    font-family: "Gotham-Book";
 }
   
 .pnormal {
@@ -69,7 +69,7 @@ body {
   color: rgba(255, 255, 255, 0.493);  
   font-size: 16px;
   margin-bottom: 5px;
-  font-family: "Gotham-Thin";
+  font-family: "Gotham-Book";
 }
 
 .plight {
@@ -78,7 +78,7 @@ body {
   margin-left: 10px;
   margin-bottom: auto;
   font-size: 20px;
-  font-family: "Gotham-Thin";
+  font-family: "Gotham-Book";
 }
   
 

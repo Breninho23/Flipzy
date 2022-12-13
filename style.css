@@ -1,0 +1,97 @@
+@import url(header.css);
+@import url(times.css);
+@import url(buttonRow.css);
+@import url(footer.css);
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('/Gotham-Font/Gotham-Bold.otf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Gotham-Thin';
+    src:url("/Gotham-Font/GothamBook.ttf");
+}
+
+@font-face {
+  font-family: 'Gotham-Light';
+  src:url("/Gotham-Font/GothamLight.ttf");
+}
+
+body {
+    font-family: 'Bitter', serif;
+    text-align: center;   
+    background-color: #7a7a7a;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 38%;
+    background: #2c323a;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.box{
+  margin-top: 15px;
+  margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    height: 20%;    
+    background:#2c323a;
+    color: #fff;
+}
+
+
+.ptitle {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Gotham-Bold";
+    
+}
+  
+.psubtitle {
+    margin-top: 0px;
+    color: rgba(255, 255, 255, 0.493);
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: "Gotham-Thin";
+}
+  
+.pnormal {
+  margin-top: 0px;
+  color: rgba(255, 255, 255, 0.493);  
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-family: "Gotham-Thin";
+}
+
+.plight {
+  margin-top: 0px;
+  color: #fff;
+  margin-left: 10px;
+  margin-bottom: auto;
+  font-size: 20px;
+  font-family: "Gotham-Thin";
+}
+  
+
+
+  .btn-n-active {
+    background: red
+  }
+
+
+
+
+
+
+
+
+
